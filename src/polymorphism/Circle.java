@@ -1,27 +1,20 @@
-/**
- * Created by PaiizZ on 3/2/2017 AD.
- */
+package polymorphism;
+
 public class Circle implements Shape{
     private double radius;
     public Circle(int radius){
         this.radius = radius;
     }
 
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
     @Override
     public double getArea() {
+        //TODO complete this method and javadoc.
         return Math.PI*radius*radius;
     }
 
     @Override
     public double getPerimeter() {
-        return 2*Math.PI*this.radius ;
+        //TODO complete this method and javadoc.
+        return 2*Math.PI*radius ;
     }
 }
