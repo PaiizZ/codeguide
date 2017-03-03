@@ -9,12 +9,12 @@ public class Circle implements Shape{
     @Override
     public double getArea() {
         //TODO complete this method and javadoc.
-        return Math.PI*radius*radius;
+        return 0;
     }
 
     @Override
     public double getPerimeter() {
         //TODO complete this method and javadoc.
-        return 2*Math.PI*radius ;
+        return 0 ;
     }
 }
